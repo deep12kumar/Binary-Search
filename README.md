@@ -12,6 +12,7 @@ Access to any element of the data structure takes constant time.
 
 How does Binary Search work?
 To understand the working of binary search, consider the following illustration:
+
 First Step: 
 Initially the search space is from 0 to 9. 
 Let’s denote the boundary by L and H where L = 0 and H = 9 initially. 
