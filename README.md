@@ -17,15 +17,19 @@ Initially the search space is from 0 to 9.
 Let’s denote the boundary by L and H where L = 0 and H = 9 initially. 
 Now mid of this search space is M = 4. 
 So compare target with arr[M].
+
 Second Step: 
 As arr[4] is less than target, switch the search space to the right of 16, i.e., [5, 9]. 
 Now L = 5, H = 9 and M becomes 7. 
 Compare target with arr[M].
+
 Third Step: 
 arr[7] is greater than target. 
-Shift the search space to the left of M, i.e., [5, 6]. 
+Shift the search space to the left of M, i.e., [5, 6].
+
 So, now L = 5, H = 6 and M = 6. 
 Compare arr[M] with target. 
+
 Here arr[M] and target are the same. 
 So, we have found the target.
 
